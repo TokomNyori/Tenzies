@@ -1,0 +1,45 @@
+.instructions-container {
+    text-align: center;
+    padding: 0 5.6rem;
+    margin-bottom: -2.2rem;
+  }
+  
+  .instruction-heading {
+    font-size: 1rem;
+    letter-spacing: -0.03em;
+    line-height: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  
+  .instructions {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.800rem;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 1rem;
+    margin-top: -0.2rem;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 480px) {
+
+    .instruction-heading {
+      font-size: 1.2rem;
+    }
+
+    .instructions {
+      font-size: 1rem;
+      margin-top: 0;
+    }
+  
+    .instructions-container {
+      text-align: center;
+      padding: 0 1.8rem;
+      margin-bottom: -3rem;
+    }
+  
+    body {
+      background-color: #fff;
+    }
+  }
